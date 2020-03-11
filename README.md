@@ -20,11 +20,11 @@ The final step of my project introduces a new force of a piston which introduces
 | Flux | movement of water |
 | hydraulicCond | set to .0001 for a semi-permeable membrane |
 | membraneSurfaceArea | 10cm |
-| LDepth, RDepth |   |
+| LDepth, RDepth | depth of water computed from volume, length, and width  |
 | LVolume, RVolume | initially 1000cm |
 | tankLength | set to 20cm |
 | tankWidth | set to 10cm |
-| LHydrostaticPressure, RHydrostaticPressure | osmotic pressure |
+| LOsmoticPressure, ROsmoticPressure | osmotic pressure |
 | constVantHoffFactor | set to 2 for ionic composition of NaCl |
 | constOsmoticCoefficient | set to .93 for NaCl |
 | LMolarity, RMolarity | molarity of solute |
